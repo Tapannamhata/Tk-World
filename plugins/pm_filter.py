@@ -377,7 +377,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/IMDB_HPBot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔗 Join Group, url='https://t.me/+SShaRqPOS0dhOGNl')
+            InlineKeyboardButton('🔗 Join Group', url='https://t.me/+SShaRqPOS0dhOGNl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
