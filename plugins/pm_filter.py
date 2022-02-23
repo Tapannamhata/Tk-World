@@ -1,4 +1,4 @@
-#Kanged From @harshil8981
+#Kanged From @hellobikash
 import asyncio
 import re
 import ast
@@ -377,7 +377,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/IMDB_HPBot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Hp_botupdate')
+            InlineKeyboardButton('🔗 Join Group, url='https://t.me/+SShaRqPOS0dhOGNl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -407,11 +407,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Hp_botupdate'),
+            InlineKeyboardButton('🔗 Join Group', url='https://t.me/+SShaRqPOS0dhOGNl'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('✔️ Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
