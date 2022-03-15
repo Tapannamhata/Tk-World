@@ -15,7 +15,7 @@
       "inline"
     ],
     "website": "https://github.com/harshil8981/EvaMaria_HP",
-    "repository": "https://github.com/Bikash-Maity/EvaMaria_HP",
+    "repository": "https://github.com/Tapannamhata/EvaMaria_HP",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
